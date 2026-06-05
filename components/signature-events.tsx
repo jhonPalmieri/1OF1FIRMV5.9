@@ -58,7 +58,9 @@ function EventCard({
           {/* SOLD OUT Badge */}
           {soldOut && (
             <div className="absolute inset-0 bg-black/60 flex items-center justify-center z-10">
-              <span className="text-red-500 text-lg sm:text-xl md:text-2xl font-bold tracking-wider transform -rotate-12">SOLD OUT</span>
+              <div className="bg-red-600 px-4 sm:px-6 py-1.5 sm:py-2 shadow-lg">
+                <span className="text-white text-lg sm:text-xl md:text-2xl font-bold tracking-wider">SOLD OUT</span>
+              </div>
             </div>
           )}
         </div>

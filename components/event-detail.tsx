@@ -170,7 +170,7 @@ export default function EventDetail({ onNavigate }: EventDetailProps) {
         {/* SOLD OUT Badge */}
         {event?.soldOut && (
           <div className="absolute inset-0 flex items-center justify-center z-20">
-            <div className="bg-red-600 px-8 sm:px-12 md:px-16 py-3 sm:py-4 md:py-5 rounded-full transform -rotate-[20deg] shadow-2xl border-4 border-red-400">
+            <div className="bg-red-600 px-8 sm:px-12 md:px-16 py-3 sm:py-4 md:py-5 shadow-2xl">
               <span className="text-white text-2xl sm:text-4xl md:text-5xl font-black tracking-widest drop-shadow-lg">SOLD OUT</span>
             </div>
           </div>
